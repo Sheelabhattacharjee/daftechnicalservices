@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.daftechnicalservices.com/sitemap.xml
