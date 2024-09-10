@@ -390,6 +390,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
+
 }
 
 #hero .carousel-container {
@@ -402,7 +403,30 @@ h1, h2, h3, h4, h5, h6 {
   left: 50px;
   right: 50px;
 }
+@media  screen and (max-width: 767px) {
+  #hero {
+    width: 100%;
+    height: 50vh;
+  }
+  #hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
+   
+   background-size: contain;
+    background-position: top;
+   
+    
+  }
+  /* #hero .carousel-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    bottom: 60px;
+    top: 510px;
+    left: 50px;
+    right: 50px;
+  } */
 
+}
 #hero .carousel-content {
   background: rgba(28, 23, 21, 0.7);
   padding: 20px;
@@ -494,7 +518,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 992px) {
   #hero {
-    height: calc(100vh - 70px);
+    /* height: calc(100vh - 70px); */
   }
   #hero .carousel-content h2 {
     margin-bottom: 15px;
