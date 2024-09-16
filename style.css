@@ -134,7 +134,7 @@ section {
 .blog-cards {
     margin: auto;
     width: 430px;
-    height: 570px;
+ 
     background-color: var(--bg-color);
     cursor: pointer;
     transition: var(--transition);
