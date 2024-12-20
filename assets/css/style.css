@@ -2492,3 +2492,35 @@ Testimonial Area CSS
 
 
 
+
+.blog-main-container p {
+  margin-bottom: 0;
+  color: #000000 !important;
+}
+
+.blog-main-container h2 {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.blog-main-container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.blog-img-card img {
+  max-height: 600px;
+}
+
+@media screen and (max-width: 768px) {
+  .blog-main-container h2 {
+      font-size: 22px;
+  }
+}
+
+.blog-main-container a {
+  color: #0362CC;
+}
