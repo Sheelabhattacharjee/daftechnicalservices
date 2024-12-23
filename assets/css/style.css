@@ -2742,9 +2742,7 @@ h6 {
   gap: 1.5em;
 }
 
-.common_blog_content {
-  align-items: stretch;
-}
+
 
 .common_blog_left {
   flex: 1;
@@ -2752,12 +2750,13 @@ h6 {
 }
 
 .common_blog_right {
-  flex: 0 0 auto; 
-  max-width: 40%; 
+  flex: 1;
+
 }
 
 .common_blog_right img {
   object-fit: cover;
+  max-width: 80%;
   height: auto !important;
 }
 
@@ -2767,6 +2766,9 @@ h6 {
   }
   .common_blog_content:nth-child(odd) .common_blog_right {
     order: 0;
+  }
+  .common_blog_right img {
+    max-width: 100%;
   }
 } 
 
