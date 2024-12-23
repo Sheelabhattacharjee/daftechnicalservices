@@ -2770,6 +2770,10 @@ h6 {
   .common_blog_right img {
     max-width: 100%;
   }
+  .common_blog_left {
+    min-width: 100%;
+    text-align: justify;
+  }
 } 
 
 
