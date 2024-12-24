@@ -2733,7 +2733,6 @@ h6 {
   color: #0362CC;
 }
 
-
  .common_blog_content {
   display: flex;
   flex-wrap: wrap;
@@ -2741,8 +2740,6 @@ h6 {
   align-items: stretch;
   gap: 1.5em;
 }
-
-
 
 .common_blog_left {
   flex: 1;
