@@ -2745,16 +2745,14 @@ h6 {
   flex: 1;
   min-width: 350px;
 }
-
+.common_blog_left p{
+  margin-top: 1em !important;
+}
 .common_blog_right {
   flex: 1;
 
 }
-.common_blog_right{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .common_blog_right img {
   object-fit: cover;
   max-width: 80%;
